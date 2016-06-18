@@ -177,13 +177,13 @@ public class Logic
     public static double circleArea(double radius)
     {
         double area;
-        area = math.PI * math.pow(radius,2);
+        area = Math.PI * Math.pow(radius,2);
         return area;
     }
     public static double circleCircumference(double radius)
     {
         double circumfrence;
-        circumfrence = 2*math.PI*radius;
+        circumfrence = 2*Math.PI*radius;
         return circumfrence;
     }
     public static double rightTriangleArea(double base, double height)
@@ -195,7 +195,7 @@ public class Logic
     public static double rightTrianglePerimeter(double base, double height)
     {
         double perimeter;
-        perimeter = base + height + (math.sqrt(math.pow(base,2)+math.pow(height,2)));
+        perimeter = base + height + (Math.sqrt(Math.pow(base,2)+Math.pow(height,2)));
         return perimeter;
     }
     public static double boxVolume(double length, double width, double depth)
@@ -207,19 +207,19 @@ public class Logic
     public static double boxSurfaceArea(double length, double width, double depth)
     {
         double surfaceArea;
-        surfaceArea = (2*length*depth)+(2*width*depth);
+        surfaceArea = (2*length*depth)+(2*width*depth)+(2*length*width);
         return surfaceArea;
     }
     public static double sphereVolume(double radius)
     {
         double volume;
-        volume = (4/3)*math.PI*math.pow(radius,2);
+        volume = (4/3)*Math.PI*Math.pow(radius,2);
         return volume;
     }
     public static double sphereSurfaceArea(double radius)
     {
         double surfaceArea;
-        surfaceArea = 4*math.PI*math.pow(radius,2);
+        surfaceArea = 4*Math.PI*Math.pow(radius,2);
         return surfaceArea;
     }
 
