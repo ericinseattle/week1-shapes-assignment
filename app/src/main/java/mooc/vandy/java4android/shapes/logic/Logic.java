@@ -213,7 +213,7 @@ public class Logic
     public static double sphereVolume(double radius)
     {
         double volume;
-        volume = (4/3)*Math.PI*Math.pow(radius,2);
+        volume = (4.0/3.0)*Math.PI*Math.pow(radius,3);
         return volume;
     }
     public static double sphereSurfaceArea(double radius)
